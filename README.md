@@ -21,23 +21,9 @@
 
 ---
 
-## `01 // CURRENT_BUILD`
-
-### SLIME RPG
-
-Souls-like action RPG на **Godot 4.7**.  
-Поглощение существ и предметов, временные формы, синтез, развитие поселения и набор собственного отряда.
-
-```gdscript
-func absorb(target: Entity) -> FormData:
-    knowledge += target.rarity
-    mana -= synthesis_cost
-    return target.extract_form()
-```
-
 ---
 
-## `02 // WHAT_I_BUILD`
+## `00 // WHAT_I_BUILD`
 
 - Разработка игр и игровых систем на Godot
 - Python-боты и серверная логика
@@ -49,11 +35,11 @@ func absorb(target: Entity) -> FormData:
 
 ---
 
-## `03 // PROJECTS`
+## `01 // PROJECTS`
 
 | Project | Description | Status |
 |---|---|---|
-| **SLIME RPG** | Souls-like action RPG on Godot | `BUILDING` |
+| **NAME** | Souls-like action RPG on Godot | `BUILDING` |
 | **QUIET LAB** | Набор приложений и AI-инструментов | `IN DEVELOPMENT` |
 | **Modular Builder 2.0** | Генератор модульных зданий для Blender | `PROTOTYPE` |
 | **@FreeDownloadAnyServiceBot** | Загрузка видео с разных сервисов | `ONLINE` |
