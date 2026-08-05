@@ -1,0 +1,160 @@
+<svg width="1280" height="240" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06090B"/>
+      <stop offset="35%" stop-color="#0B1215"/>
+      <stop offset="70%" stop-color="#12211A"/>
+      <stop offset="100%" stop-color="#1B3528"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="596" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#12191D"/>
+      <stop offset="100%" stop-color="#0A1013"/>
+    </linearGradient>
+    <radialGradient id="softGreen" cx="0" cy="0" r="1" gradientTransform="translate(1100 120) rotate(180) scale(360 210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79A97E" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#79A97E" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <style>
+    .tiny { font: 11px 'JetBrains Mono', Consolas, monospace; letter-spacing: 1.2px; fill: #7D8A84; }
+    .title { font: 800 66px Inter, 'Segoe UI', Arial, sans-serif; fill: #F4F7F6; letter-spacing: -2px; }
+    .sub { font: 18px 'JetBrains Mono', Consolas, monospace; fill: #BAC2BE; }
+    .chip { font: 12px 'JetBrains Mono', Consolas, monospace; }
+    .term { font: 13px 'JetBrains Mono', Consolas, monospace; fill: #DCE3E0; }
+    .muted { fill: #A1ABA5; }
+    .green { fill: #97D774; }
+    .blue { fill: #8CB8F4; }
+    .purple { fill: #CDB2FF; }
+    .prompt { fill: #97D774; }
+
+    .blink { animation: blink .9s steps(2, start) infinite; }
+    .onlinePulse { animation: pulse 2.5s ease-in-out infinite; transform-origin: 1146px 17px; }
+
+    .blank,.n1,.n2,.n3,.n4,.n5,.n4b,.n3b,.n2b,.blank2 { opacity: 0; }
+    .blank  { animation: blank 4.8s linear infinite; }
+    .n1     { animation: n1 4.8s linear infinite; }
+    .n2     { animation: n2 4.8s linear infinite; }
+    .n3     { animation: n3 4.8s linear infinite; }
+    .n4     { animation: n4 4.8s linear infinite; }
+    .n5     { animation: n5 4.8s linear infinite; }
+    .n4b    { animation: n4b 4.8s linear infinite; }
+    .n3b    { animation: n3b 4.8s linear infinite; }
+    .n2b    { animation: n2b 4.8s linear infinite; }
+    .blank2 { animation: blank2 4.8s linear infinite; }
+    .cursorMove { animation: cursorMove 4.8s linear infinite; }
+
+    .sub1 { opacity: 1; animation: sub1 9s ease-in-out infinite; }
+    .sub2 { opacity: 0; animation: sub2 9s ease-in-out infinite; }
+    .sub3 { opacity: 0; animation: sub3 9s ease-in-out infinite; }
+
+    @keyframes blink { 0%,46% { opacity:1; } 47%,100% { opacity:0; } }
+    @keyframes pulse { 0%,100% { opacity:.45; transform: scale(.95); } 50% { opacity:1; transform: scale(1.06); } }
+
+    @keyframes blank  { 0%,10% { opacity:1; } 10.01%,100% { opacity:0; } }
+    @keyframes n1     { 0%,10% { opacity:0; } 10.01%,18% { opacity:1; } 18.01%,100% { opacity:0; } }
+    @keyframes n2     { 0%,18% { opacity:0; } 18.01%,26% { opacity:1; } 26.01%,100% { opacity:0; } }
+    @keyframes n3     { 0%,26% { opacity:0; } 26.01%,34% { opacity:1; } 34.01%,100% { opacity:0; } }
+    @keyframes n4     { 0%,34% { opacity:0; } 34.01%,42% { opacity:1; } 42.01%,100% { opacity:0; } }
+    @keyframes n5     { 0%,42% { opacity:0; } 42.01%,66% { opacity:1; } 66.01%,100% { opacity:0; } }
+    @keyframes n4b    { 0%,66% { opacity:0; } 66.01%,76% { opacity:1; } 76.01%,100% { opacity:0; } }
+    @keyframes n3b    { 0%,76% { opacity:0; } 76.01%,84% { opacity:1; } 84.01%,100% { opacity:0; } }
+    @keyframes n2b    { 0%,84% { opacity:0; } 84.01%,92% { opacity:1; } 92.01%,100% { opacity:0; } }
+    @keyframes blank2 { 0%,92% { opacity:0; } 92.01%,100% { opacity:1; } }
+
+    @keyframes cursorMove {
+      0%,10%       { transform: translateX(0px); }
+      10.01%,18%   { transform: translateX(32px); }
+      18.01%,26%   { transform: translateX(66px); }
+      26.01%,34%   { transform: translateX(100px); }
+      34.01%,42%   { transform: translateX(132px); }
+      42.01%,66%   { transform: translateX(168px); }
+      66.01%,76%   { transform: translateX(132px); }
+      76.01%,84%   { transform: translateX(100px); }
+      84.01%,92%   { transform: translateX(66px); }
+      92.01%,100%  { transform: translateX(0px); }
+    }
+
+    @keyframes sub1 {
+      0%, 25% { opacity: 1; transform: translateY(0px); }
+      31%, 100% { opacity: 0; transform: translateY(-3px); }
+    }
+    @keyframes sub2 {
+      0%, 31% { opacity: 0; transform: translateY(3px); }
+      37%, 58% { opacity: 1; transform: translateY(0px); }
+      64%, 100% { opacity: 0; transform: translateY(-3px); }
+    }
+    @keyframes sub3 {
+      0%, 64% { opacity: 0; transform: translateY(3px); }
+      70%, 92% { opacity: 1; transform: translateY(0px); }
+      98%, 100% { opacity: 0; transform: translateY(-3px); }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1278" height="238" rx="18" fill="url(#bg)" stroke="#26322E"/>
+  <rect x="1" y="1" width="1278" height="238" rx="18" fill="url(#softGreen)"/>
+
+  <path d="M32 24H318" stroke="#1F2A27"/>
+  <path d="M20 206H1260" stroke="#1D2623"/>
+
+  <text x="34" y="20" class="tiny">SLIME_PROFILE / BUILD_2026</text>
+  <g class="onlinePulse">
+    <circle cx="1146" cy="17" r="3" fill="#97D774"/>
+    <circle cx="1146" cy="17" r="7" fill="#97D774" opacity="0.14" filter="url(#softBlur)"/>
+  </g>
+  <text x="1160" y="20" class="tiny green">ONLINE</text>
+
+  <text x="34" y="105" class="title blank"></text>
+  <text x="34" y="105" class="title n1">s</text>
+  <text x="34" y="105" class="title n2">sl</text>
+  <text x="34" y="105" class="title n3">sli</text>
+  <text x="34" y="105" class="title n4">slim</text>
+  <text x="34" y="105" class="title n5">slime</text>
+  <text x="34" y="105" class="title n4b">slim</text>
+  <text x="34" y="105" class="title n3b">sli</text>
+  <text x="34" y="105" class="title n2b">sl</text>
+  <text x="34" y="105" class="title blank2"></text>
+
+  <rect x="34" y="45" width="4" height="60" rx="2" fill="#97D774" class="blink cursorMove"/>
+
+  <text x="34" y="146" class="sub sub1">game developer / python builder / systems</text>
+  <text x="34" y="146" class="sub sub2">Godot worlds, bots, servers, experiments</text>
+  <text x="34" y="146" class="sub sub3">20-year-old programmer based in OOO &quot;тмыв денег&quot;</text>
+
+  <g transform="translate(34 171)">
+    <rect width="120" height="24" rx="12" fill="#101813" stroke="#2B4135"/>
+    <text x="16" y="16.5" class="chip green">GODOT 4.7</text>
+
+    <rect x="132" width="90" height="24" rx="12" fill="#12171B" stroke="#2D3940"/>
+    <text x="156" y="16.5" class="chip blue">PYTHON</text>
+
+    <rect x="234" width="104" height="24" rx="12" fill="#16121A" stroke="#372F40"/>
+    <text x="258" y="16.5" class="chip purple">SYSTEMS</text>
+  </g>
+
+  <text x="30" y="224" class="tiny">CREATE / AUTOMATE / SHIP</text>
+
+  <g transform="translate(650 34)">
+    <rect width="596" height="152" rx="16" fill="url(#panel)" stroke="#2B3834"/>
+    <rect width="596" height="28" rx="16" fill="#141D21"/>
+    <path d="M0 28H596" stroke="#2B3834"/>
+    <circle cx="16" cy="14" r="3" fill="#FF7B72"/>
+    <circle cx="29" cy="14" r="3" fill="#E3B341"/>
+    <circle cx="42" cy="14" r="3" fill="#97D774"/>
+    <path d="M60 14H162" stroke="#37423F" stroke-width="2" stroke-linecap="round"/>
+    <text x="500" y="18" class="tiny">SLIME://CORE</text>
+
+    <g transform="translate(18 38)">
+      <rect width="560" height="96" rx="8" fill="#070B0E"/>
+      <text x="12" y="20" class="term"><tspan class="prompt">slime@lab:~$</tspan> docker compose up quiet_lab</text>
+      <text x="12" y="44" class="term muted">[ok] 12 weird tools are now online</text>
+      <text x="12" y="68" class="term"><tspan class="prompt">slime@lab:~$</tspan> echo "create + break + rebuild + ship"</text>
+      <text x="12" y="92" class="term muted">[info] still cooking something strange... <tspan class="blink">_</tspan></text>
+    </g>
+  </g>
+
+  <text x="1130" y="224" class="tiny">@SLAMI01</text>
+</svg>
