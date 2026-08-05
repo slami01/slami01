@@ -42,11 +42,11 @@
 | **NAME** | Souls-like action RPG on Godot | `BUILDING` |
 | **QUIET LAB** | Набор приложений и AI-инструментов | `IN DEVELOPMENT` |
 | **Modular Builder 2.0** | Генератор модульных зданий для Blender | `PROTOTYPE` |
-| **@FreeDownloadAnyServiceBot** | Загрузка видео с разных сервисов | `ONLINE` |
-| **@ToxicVerdictBot** | Бот-судья с токсичными вердиктами | `ONLINE` |
-| **@HookWarsBot** | Telegram Mini App: 1 hook = 1 kill | `WIP` |
-| **@filetoolskitbot** | Инструменты для PDF, Word, Excel и изображений | `ONLINE` |
-| **@LootSignalBot** | Уведомления о скидках на игры | `ONLINE` |
+| [**@FreeDownloadAnyServiceBot**](https://t.me/FreeDownloadAnyServiceBot) | Загрузка видео с разных сервисов | `ONLINE` |
+| [**@ToxicVerdictBot**](https://t.me/ToxicVerdictBot) | Бот-судья с токсичными вердиктами | `ONLINE` |
+| [**@HookWarsBot**](https://t.me/HookWarsBot) | Telegram Mini App: 1 hook = 1 kill | `WIP` |
+| [**@filetoolskitbot**](https://t.me/filetoolskitbot) | Инструменты для PDF, Word, Excel и изображений | `ONLINE` |
+| [**@LootSignalBot**](https://t.me/LootSignalBot) | Уведомления о скидках на игры | `ONLINE` |
 
 ---
 
