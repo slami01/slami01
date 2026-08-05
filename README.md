@@ -11,7 +11,7 @@
 
 <br>
 
-<img src="[https://img.shields.io/badge/Godot_4.7-0D1117?style=for-the-badge&logo=godot-engine&logoColor=7CFF6B](https://github.com/godotengine/godot)" />
+<img src="https://img.shields.io/badge/Godot_4.7-0D1117?style=for-the-badge&logo=godot-engine&logoColor=7CFF6B" />
 <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=79C0FF" />
 <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=7CFF6B" />
 <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=F2F7F5" />
