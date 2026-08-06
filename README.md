@@ -41,7 +41,7 @@
 |---|---|---|
 | **NAME** | Souls-like action RPG on Godot | `BUILDING` |
 | **QUIET LAB** | Набор приложений и AI-инструментов | `IN DEVELOPMENT` |
-| **Modular Builder 2.0** | Генератор модульных зданий для Blender | `PROTOTYPE` |
+| **Modular Builder 3.1** | Генератор модульных зданий для Blender | `PROTOTYPE` |
 | [**@FreeDownloadAnyServiceBot**](https://t.me/FreeDownloadAnyServiceBot) | Загрузка видео с разных сервисов | `ONLINE` |
 | [**@ToxicVerdictBot**](https://t.me/ToxicVerdictBot) | Бот-судья с токсичными вердиктами | `ONLINE` |
 | [**@HookWarsBot**](https://t.me/HookWarsBot) | Telegram Mini App: 1 hook = 1 kill | `WIP` |
