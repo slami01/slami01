@@ -44,7 +44,7 @@
 | **Modular Builder 3.1** | Генератор модульных зданий для Blender | `PROTOTYPE` |
 | [**@FreeDownloadAnyServiceBot**](https://t.me/FreeDownloadAnyServiceBot) | Загрузка видео с разных сервисов | `ONLINE` |
 | [**@ToxicVerdictBot**](https://t.me/ToxicVerdictBot) | Бот-судья с токсичными вердиктами | `ONLINE` |
-| [**@HookWarsBot**](https://t.me/HookWarsBot) | Telegram Mini App: 1 hook = 1 kill | `WIP` |
+| [**@HookWarsBot**](https://t.me/HookWarsBot) | Telegram Mini App: 1 hook = 1 kill | `ONLINE` |
 | [**@filetoolskitbot**](https://t.me/filetoolskitbot) | Инструменты для PDF, Word, Excel и изображений | `ONLINE` |
 | [**@LootSignalBot**](https://t.me/LootSignalBot) | Уведомления о скидках на игры | `ONLINE` |
 
